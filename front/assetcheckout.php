@@ -1,5 +1,6 @@
 <?php
 include ('../../../inc/includes.php');
+include_once __DIR__ . '/setup.php';
 Session::checkRight("config", READ);
 global $DB;
 
