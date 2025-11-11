@@ -1,0 +1,10 @@
+body { font-family: 'Microsoft Yahei'; padding: 20px; }
+.container { max-width: 900px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; }
+h2 { text-align: center; }
+label { display: inline-block; width: 120px; }
+input[type=text] { width: 250px; padding: 5px; margin: 5px; }
+button { padding: 6px 12px; margin: 5px; cursor: pointer; }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+th { background: #f5f5f5; }
+@media print { .noprint { display: none; } }
